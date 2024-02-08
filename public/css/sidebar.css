@@ -1,0 +1,66 @@
+/* The side navigation menu */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: darkslategray;
+    position:absolute;
+    /* height: 92.3%; */
+    height: 100vh;
+    overflow: auto;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+/* Sidebar links */
+.sidebar a {
+    display: block;
+    color: #9ea2a7;
+    padding: 16px;
+    text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active .menu-name{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+.sidebar a.active .menu-icon{
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/* Links on mouse-over */
+    .sidebar a:hover:not(.active) .menu-name{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+.sidebar a:hover:not(.active) .menu-icon{
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+    }
+
+    /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+    @media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}

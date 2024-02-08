@@ -1,0 +1,44 @@
+
+.t-modal .modal-header {
+    background-color: #2F4F4F;
+}
+.t-modal .modal-title {
+    color: #ffffff;
+}
+.t-modal .btn-close {
+  filter: var(--bs-btn-close-white-filter);
+}
+.help-block {
+  color: red;
+}
+.t-save-btn{
+  background-color: rgb(13, 20, 62) !important;
+  color: #ffffff !important;
+}
+.t-close-btn {
+  background-color: #ef0808 !important;
+  color: #ffffff !important;
+}
+.t-main-label{
+  font-weight: 600;
+}
+.t-sub-label{
+  color: var(--dim-gray);
+  font-size: 0.9rem;
+  word-wrap: break-word;
+}
+
+.t-modal .form-control-sm {
+  font-size: 0.9rem;
+}
+
+.t-yes-btn{
+  background-color: rgb(87, 164, 0) !important;
+  color: #ffffff !important;
+}
+.t-no-btn{
+  background-color: rgb(228, 109, 25) !important;
+  color: #ffffff !important;
+}
+
+

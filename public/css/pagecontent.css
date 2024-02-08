@@ -1,0 +1,74 @@
+main{
+    max-height: 100vh;
+    overflow-y: auto;
+}
+.content{
+    background-color: #ecf0f4;
+    margin-left: 190px;
+    padding: 1px 16px;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    /* height: 92.3vh; */
+    height: 100vh;
+}
+
+.page-btn-line{
+    background-color: #dae1f3;
+    height: 64px;
+    --bs-gutter-x:0px !important ;
+    align-items: center;
+}
+
+.page-title{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.add-btn{
+    font-size: 24px !important;
+    color: rgb(0, 55, 255);
+}
+
+.active-btn{
+    font-size: 24px !important;
+    color: rgb(123, 0, 255);
+}
+.inactive-btn{
+    font-size: 24px !important;
+    color: rgb(255, 126, 13);
+}
+.delete-btn{
+    font-size: 24px !important;
+    color: rgb(255, 13, 13);
+}
+.xlsx-btn{
+    font-size: 24px !important;
+    color: rgb(5, 99, 3);
+}
+.expo-btn{
+    font-size: 15px !important;
+    color: rgb(5, 99, 3);
+}
+.search-icon{
+    font-size: 24px;
+    margin-left: 10px;
+}
+.bulk-btn{
+    font-size: 24px !important;
+}
+.bulk-btn-func:disabled {
+    border-color: transparent !important;
+    opacity: 0.3 !important;
+}
+/* Customize the tooltip's background color and text color */
+.tooltip .tooltip-inner {
+    background-color: #070909; /* Example color */
+    color: #fff; /* Example color */
+  }
+  
+  /* Customize the tooltip's arrow color */
+  .tooltip .tooltip-arrow {
+    border-top-color: #007bff; /* Example color */
+  }

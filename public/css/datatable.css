@@ -1,0 +1,65 @@
+.bi-trash{
+    color: rgb(255, 13, 13);
+}
+.bi-pencil{
+    color: rgb(115, 121, 44);
+}
+.bi-exclamation-circle{
+    color: rgb(255, 126, 13);
+}
+.bi-check-circle{
+    color: rgb(123, 0, 255);
+}
+.bi-check-circle{
+    color: rgb(40, 167, 69);
+}
+.bi-pause-circle{
+    color: rgb(255, 193, 7);
+}
+.bi-arrow-right-circle{
+    color:rgb(150, 150, 150) ;
+}
+.bi-x-circle{
+    color:rgb(220, 53, 69) ;
+}
+.bi-calendar-event{
+    color: rgb(23, 162, 184);
+}
+.dataTables_filter label{
+    display: none;
+}
+.search-box::before {
+    content: "Search" !important;
+    color: black;   
+}
+/* .search-box {
+    width: 55vw !important;
+    margin-left: 50px;
+    display: inline !important;
+    content: "Search";   
+} */
+
+.search-box:focus {
+    border-color: white !important;
+    box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.075), 0 0 0px rgba(255, 255, 255, 0.6) !important;
+}
+
+#dttable{
+    /* height: 443px; */
+}
+
+.t-table {
+    --bs-table-color: #151212 !important;
+    --bs-table-bg: #e4e7e7 !important;
+    --bs-table-striped-bg: #d4dada !important;
+    --bs-table-striped-color: #151212 !important;
+    --bs-table-hover-bg: #ffffff !important;
+    --bs-table-hover-color: #070707 !important;
+    color: var(--bs-table-color) !important;
+    border-color: var(--bs-table-border-color) !important;
+}
+
+.t-head {
+    --bs-table-color: #000;
+    --bs-table-bg: #7A8E8E;
+}
